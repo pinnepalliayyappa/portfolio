@@ -1,0 +1,149 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;;
+
+}
+header{
+  width: 100%;
+  height: 80px;
+  background-color: #3b5998;
+  border-radius: 6px;
+}
+#brand a{
+  color: white;
+  font-size: 30px;
+  padding-left: 3px;
+  font-weight: bold;
+  text-decoration: none;
+}
+#nav .nav-icons{
+  text-align: right;
+}
+#nav .item{
+  color: white;
+  display: inline;
+  font-size: 20px;
+  padding: 10px 25px;
+}
+#nav .link{
+  color: white;
+  text-decoration: none;
+}
+#nav .link:hover{
+  transition: .3s;
+  color: black;
+}
+.image{
+  margin:auto;
+  display: flex;
+  align-items: center;
+  height: 500px;
+  font-size: 23px;
+}
+.image img{
+  width: 400px;
+  margin-right: 100px;
+  margin-left: 100px;
+  clip-path:circle();
+}
+.image .details{
+  font-size: 35px;
+}
+.section1{
+  background-color: rgb(238, 235, 235);
+}
+.container{
+  text-align:center;
+  border-radius: 5px;
+  padding:30px;
+}
+.container .heading{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+
+}
+.container .matter{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.container a{
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 20px;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.container a:hover{
+  transition: .2s;
+  background-color: #3b5998;
+}
+.footer{
+  background-color: #3b5998;
+  height:100px;
+  width:100%;
+  border-radius:5px;
+  margin-top: 10px;
+}
+.footer p{
+  padding: 20px 0px;
+  font-size:25px;
+  text-align: center;
+  color: white;
+}
+.footer ul{
+  text-align: center;
+}
+.footer .item{
+  color: white;
+  font-size: 25px;
+  display: inline;
+  padding: 5px 10px;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+.footer .fa{
+  padding: 4px 4px;
+  border-radius: 4px;
+}
+.footer .fa-facebook{
+  background-color: cornflowerblue;
+}
+.footer .fa-instagram{
+  background-image: linear-gradient(to top right,yellow,orange,red,blue);
+}
+
+.project-section{
+  padding: 10px 200px;
+  margin: auto;
+  display: inline;
+}
+.offwhite{
+  background-color:rgb(238, 235, 235);
+}
+.project{
+  margin: auto;
+  text-align: left;
+  font-size: 25px;
+  height: 250px;
+  width: 70%;
+  padding: 20px 10px;
+  border-radius: 6px;
+}
+.project .source{
+  display: inline;
+  text-align: center;
+}
+.project .source a{
+  text-decoration: none;
+  padding: 10px 25px;
+  font-size: 25px;
+  background-color: #3b5998;
+  color: white;
+  border-radius: 4px;
+
+}
